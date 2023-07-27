@@ -134,14 +134,10 @@
     input {
       width: 100%;
     }
-
-    /* Adjust the width of the buttons to make them appear side by side */
     button,
     .login_btn {
       width: calc(50% - 0.5rem);
     }
-
-    /* Increase the gap between the buttons */
     .login_btn {
       margin-left: 1rem;
     }

@@ -45,7 +45,7 @@
     console.log(result);
     if (result.status === "success") {
         loginStore.set(result.data);
-        const data = "/user/" + encodeURIComponent(JSON.stringify(result.data));
+        const data = "/";
         goto(data);
       
     }
@@ -73,7 +73,7 @@
     </label>
     <label>
       Email:
-      <input type="email" bind:value={email} />
+      <input type="email"   placeholder="please enter your email" bind:value={email} />
     </label>
     <label>
       Mobile No:
